@@ -67,7 +67,7 @@ function readCookie(name) {
 }
 
 window.onload = function(e) {
-  var cookie = "blue";
+  var cookie = "yellow";
   var title = cookie ? cookie : getPreferredStyleSheet();
   setActiveStyleSheet(title);
 }
@@ -77,7 +77,7 @@ window.onunload = function(e) {
   createCookie("style", title, 365);
 }
 
-var cookie = "blue";
+var cookie = "yellow";
 var title = cookie ? cookie : getPreferredStyleSheet();
 setActiveStyleSheet(title);
 
